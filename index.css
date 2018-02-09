@@ -1,0 +1,441 @@
+@import 'reset.css';
+@font-face {
+  font-family: 'MFJiaHei_Noncommercial-Regular';
+  src: url('MFJiaHei_Noncommercial-Regular.woff') format('woff'), url('MFJiaHei_Noncommercial-Regular.ttf') format('truetype'), url('MFJiaHei_Noncommercial-Regular.svg') format('svg'), url('MFJiaHei_Noncommercial-Regular.eot') format('eot');
+}
+@font-face {
+  font-family: 'PingFang-SC-Regular';
+  src: url('PingFang-SC-Regular.woff') format('woff'), url('PingFang-SC-Regular.ttf') format('truetype'), url('PingFang-SC-Regular.svg') format('svg'), url('PingFang-SC-Regular.eot') format('eot');
+}
+@font-face {
+  font-family: 'PingFang-SC-Semibold';
+  src: url('PingFang-SC-Semibold.woff') format('woff'), url('PingFang-SC-Semibold.ttf') format('truetype'), url('PingFang-SC-Semibold.svg') format('svg'), url('PingFang-SC-Semibold.eot') format('eot');
+}
+html {
+  font-size: 10px;
+}
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 415px) and (max-width: 639px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 719px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 749px) {
+  html {
+    font-size: 22.5px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 799px) {
+  html {
+    font-size: 23.5px;
+  }
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 25px;
+  }
+}
+.pages {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.pages .swiper-container {
+  height: 100%;
+  background-color: black;
+}
+.pages .swiper-container .swiper-slide {
+  line-height: 25rem;
+  color: #fff;
+  font-size: 3rem;
+  background-color: black;
+  background-image: url('//img.ejiayou.com/wxmp/yearAccount2017/bg.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  /* 标准的语法（必须放在最后） */
+}
+.pages .swiper-container .swiper-slide .home_first_line {
+  width: 100%;
+  height: 4.17rem;
+  line-height: 4.17rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 20%;
+  font-family: MFJiaHei_Noncommercial-Regular;
+  color: #EBB97D;
+  letter-spacing: 5.14px;
+}
+.pages .swiper-container .swiper-slide .home_second_line {
+  width: 100%;
+  height: 4.17rem;
+  line-height: 4.17rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 8.33rem;
+  font-family: MFJiaHei_Noncommercial-Regular;
+  color: #EBB97D;
+  letter-spacing: 5.14px;
+  margin-top: 1.67rem;
+}
+.pages .swiper-container .swiper-slide .home_page_img {
+  width: 22rem;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -11rem;
+}
+.pages .swiper-container .swiper-slide .img_box {
+  position: absolute;
+  width: 100%;
+  height: 25rem;
+  text-align: center;
+  top: 38%;
+}
+.pages .swiper-container .swiper-slide .middle_page_img {
+  width: 100%;
+  top: 29.17rem;
+  left: 0;
+  max-width: 41.67rem;
+}
+.pages .swiper-container .swiper-slide .middle_page_img.lingchen {
+  top: 23.33rem;
+}
+.pages .swiper-container .swiper-slide .middle_page_img.month {
+  top: 23.33rem;
+}
+.pages .swiper-container .swiper-slide .middle_page_img.day {
+  width: 25.17rem;
+}
+.pages .swiper-container .swiper-slide .middle_page_img.times {
+  top: 23.33rem;
+}
+.pages .swiper-container .swiper-slide .middle_page_first_line {
+  width: 100%;
+  height: 4.17rem;
+  line-height: 4.17rem;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 20%;
+  font-family: MFJiaHei_Noncommercial-Regular;
+  color: #EBB97D;
+  letter-spacing: 0.17rem;
+}
+.pages .swiper-container .swiper-slide .middle_page_second_line {
+  width: 17rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -8.5rem;
+  letter-spacing: 0.17rem;
+  margin-top: 3.33rem;
+  font-size: 1.17rem;
+  line-height: 2rem;
+  font-family: PingFangSC-Regular;
+}
+.pages .swiper-container .swiper-slide .middle_page_second_line text.bigger {
+  font-size: 1.67rem;
+  letter-spacing: 2px;
+  font-family: PingFangSC-Semibold;
+}
+.pages .swiper-container .swiper-slide .last_page_line {
+  width: 100%;
+  font-family: PingFangSC-Regular;
+  font-size: 1.17rem;
+  letter-spacing: 0.17rem;
+  line-height: 4.17rem;
+  height: 4.17rem;
+}
+.pages .swiper-container .swiper-slide .last_page_line text.bigger {
+  font-size: 2rem;
+  color: #EBB97D;
+  letter-spacing: 2px;
+  font-family: MFJiaHei_Noncommercial-Regular;
+}
+.pages .swiper-container .swiper-slide .last_page_line text.biggest {
+  font-size: 3rem;
+  color: #EBB97D;
+  letter-spacing: 2px;
+  font-family: MFJiaHei_Noncommercial-Regular;
+}
+.pages .swiper-container .swiper-slide .last_page_line_first {
+  margin-top: 9%;
+  line-height: 1.67rem;
+  height: auto;
+  min-height: 2.5rem;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
+  white-space: normal;
+  margin-bottom: 0.42rem;
+}
+.pages .swiper-container .swiper-slide .img {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -7.5rem;
+  top: 44%;
+}
+.pages .swiper-container .swiper-slide button.button_img {
+  position: absolute;
+  bottom: 14%;
+  width: 11.8rem;
+  height: 3.33rem;
+  left: 50%;
+  margin-left: -5.92rem;
+  background-color: transparent;
+  color: #EBB97D;
+  border: 0.17rem solid #EBB97D;
+  border-radius: 0.42rem;
+  font-size: 1.67rem;
+}
+.pages .swiper-container .swiper-slide button:active {
+  opacity: 0.4;
+}
+.pages .swiper-container .swiper-slide button::after {
+  border: none;
+}
+.pages .swiper-container .swiper-slide .gesture {
+  margin-top: 6.375rem;
+  width: 106%;
+  height: 1.5625rem;
+  background-image: url(//img.ejiayou.com/wxmp/yearAccount2017/gesture.png);
+  background-repeat: no-repeat;
+  background-size: auto 1.3rem;
+  background-position: center center;
+  margin-top: 3.33rem;
+}
+.pages .swiper-container .swiper-slide .gesture {
+  -webkit-animation: gesture 2s infinite;
+  animation: gesture 2s infinite;
+}
+.pages .swiper-pagination {
+  bottom: 0.83rem;
+  left: 50%;
+  width: 15rem;
+  margin-left: -7.5rem;
+}
+.pages .swiper-pagination-bullet {
+  margin: 0 0.42rem;
+  background-color: #fff;
+}
+.loading-bg {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url('//img.ejiayou.com/wxmp/yearAccount2017/bg.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.loading-bg .logo_img {
+  width: 12.5rem;
+  height: 13.17rem;
+  position: absolute;
+  top: 7.33rem;
+  left: 50%;
+  margin-left: -6.25rem;
+}
+.loading-bg .loading-bg-bottom {
+  position: relative;
+  margin-top: 25rem;
+  width: 100%;
+  height: 16.67rem;
+}
+.loading-bg .loading-bg-bottom .progress {
+  position: absolute;
+  left: 50%;
+  margin-left: -10.25rem;
+  width: 20.58rem;
+  height: 0.33rem;
+  background: #FFFFFF;
+  border-radius: 20px;
+}
+.loading-bg .loading-bg-bottom .progress .progress-yellow {
+  width: 0;
+  height: 0.33rem;
+  border-radius: 20px;
+  background-color: #F49D1A;
+}
+.loading-bg .loading-bg-bottom .progress .car_img {
+  position: absolute;
+  width: 2.17rem;
+  height: 0.83rem;
+  top: -0.84rem;
+  left: 0;
+  margin-left: -2.17rem;
+}
+.loading-bg .loading-bg-bottom .account_is_complete {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-family: MFJiaHei_Noncommercial-Regular;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  letter-spacing: 2.5px;
+  line-height: 5.83rem;
+  height: 5.83rem;
+}
+.more_story {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url('//img.ejiayou.com/wxmp/yearAccount2017/bg.png');
+  background-size: 100% 100%;
+}
+.more_story .logo_img {
+  width: 12.5rem;
+  height: 13.17rem;
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  margin-left: -6.25rem;
+}
+.more_story .line {
+  font-family: MFJiaHei_Noncommercial-Regular;
+  font-size: 3rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 4.17rem;
+  text-align: center;
+  letter-spacing: 5px;
+}
+.more_story .line_first {
+  margin-top: 23rem;
+}
+.more_story button.button_img {
+  position: absolute;
+  bottom: 16%;
+  width: 11.8rem;
+  height: 3.33rem;
+  left: 50%;
+  margin-left: -5.92rem;
+  background-color: transparent;
+  color: #EBB97D;
+  border: 0.17rem solid #EBB97D;
+  border-radius: 0.42rem;
+  font-size: 1.67rem;
+}
+.more_story button:active {
+  opacity: 0.4;
+}
+.more_story button::after {
+  border: none;
+}
+.last_page {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  line-height: 25rem;
+  color: #fff;
+  font-size: 3rem;
+  background-color: black;
+  background-image: url('//img.ejiayou.com/wxmp/yearAccount2017/bg.png');
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 100% 100%;
+}
+.last_page .last_page_line {
+  width: 100%;
+  font-family: PingFangSC-Regular;
+  font-size: 1.17rem;
+  letter-spacing: 0.17rem;
+  line-height: 4.17rem;
+  height: 4.17rem;
+}
+.last_page .last_page_line text.bigger {
+  font-size: 2rem;
+  color: #EBB97D;
+  letter-spacing: 2px;
+  font-family: MFJiaHei_Noncommercial-Regular;
+}
+.last_page .last_page_line text.biggest {
+  font-size: 3rem;
+  color: #EBB97D;
+  letter-spacing: 2px;
+  font-family: MFJiaHei_Noncommercial-Regular;
+}
+.last_page .last_page_line_first {
+  margin-top: 9%;
+  line-height: 1.67rem;
+  height: auto;
+  min-height: 2.5rem;
+  padding: 0 2.5rem;
+  box-sizing: border-box;
+  white-space: normal;
+  margin-bottom: 0.42rem;
+}
+.last_page .img {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  left: 50%;
+  margin-left: -7.5rem;
+  top: 44%;
+}
+.last_page button.button_img {
+  position: absolute;
+  bottom: 14%;
+  width: 11.8rem;
+  height: 3.33rem;
+  left: 50%;
+  margin-left: -5.92rem;
+  background-color: transparent;
+  color: #EBB97D;
+  border: 0.17rem solid #EBB97D;
+  border-radius: 0.42rem;
+  font-size: 1.67rem;
+}
+.last_page button:active {
+  opacity: 0.4;
+}
+.last_page button::after {
+  border: none;
+}
+.code {
+  position: absolute;
+  width: 8.33rem;
+  z-index: 299;
+  left: 1.2rem;
+  bottom: 1.2rem;
+}
+@-webkit-keyframes gesture {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1.5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes gesture {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1.5rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

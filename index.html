@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2017·我的加油手帐</title>
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x5-fullscreen" content="true">
+    <meta name="full-screen" content="yes">
+    <link rel="stylesheet" type="text/css" href="swiper/swiper.min.css">
+    <script src="swiper/swiper.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!--加载页-->
+    <div class="loading-bg" style="display:block;">
+        <img src="//img.ejiayou.com/wxmp/yearAccount2017/code.png" alt="" class="code">
+        <div class="loading-bg-top">
+            <img class="logo_img" src="//img.ejiayou.com/wxmp/yearAccount2017/logo.png" alt="" srcset="">
+        </div>
+        <div class="loading-bg-bottom">
+            <div class="progress">
+                <div class="progress-yellow"></div>
+                <img src="//img.ejiayou.com/wxmp/yearAccount2017/car.png" alt="" class="car_img">
+            </div>
+            <div class="account_is_complete">易加油年度账单正在生成中</div>
+        </div>
+    </div>
+    <!--账单页面-->
+    <div class="pages" style="display:block;">
+        <img src="//img.ejiayou.com/wxmp/yearAccount2017/code.png" alt="" class="code">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide ">
+                    <div class="home_first_line">2017,这一年</div>
+                    <div class="home_second_line">是不是过的不太一样</div>
+                    <div class="gesture" id="gesture"></div>
+                    <img src="//img.ejiayou.com/wxmp/yearAccount2017/2.png" alt="" class="home_page_img"></img>
+                </div>
+                <div class="swiper-slide">
+                    <div class="middle_page_first_line">1000次</div>
+                    <div class="middle_page_second_line">在2017年加了
+                        <text class="bigger">1000</text>次油，长路漫漫，易加油为你保驾护航</div>
+                    <div class="img_box">
+                        <img src="//img.ejiayou.com/wxmp/yearAccount2017/3.png" alt="" class="middle_page_img times"></img>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="middle_page_first_line">999天</div>
+                    <div class="middle_page_second_line">原来已经与你相识了这么久，感谢一路有你</div>
+                    <div class="img_box">
+                        <img src="//img.ejiayou.com/wxmp/yearAccount2017/4.png" alt="" class="middle_page_img day"></img>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="middle_page_first_line">12月份</div>
+                    <div class="middle_page_second_line">你
+                        <text class="bigger">12月</text>加油量最多，这个月，一定是发生了什么与众不同的事</div>
+                    <div class="img_box">
+                        <img src="//img.ejiayou.com/wxmp/yearAccount2017/5.png" alt="" class="middle_page_img month"></img>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="middle_page_first_line">凌晨</div>
+                    <div class="middle_page_second_line">似乎养成了习惯，不自觉的，常常会在
+                        <text class="bigger">凌晨</text>的加油站发现你的身影</div>
+                    <div class="img_box">
+                        <img src="//img.ejiayou.com/wxmp/yearAccount2017/6.png" alt="" class="middle_page_img lingchen"></img>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="middle_page_first_line">丽资加油站</div>
+                    <div class="middle_page_second_line">你最常去
+                        <text class="bigger">丽资加油站</text>，总有那么一些理由，让你去了同一个地方
+                        <text class="bigger">18次</text>
+                    </div>
+                    <div class="img_box">
+                        <img src="//img.ejiayou.com/wxmp/yearAccount2017/7.png" alt="" class="middle_page_img station"></img>
+                    </div>
+                </div>
+                <div class="swiper-slide ">
+                    <div class="last_page_line last_page_line_first">
+                        <text class="bigger">2017,</text>吴彦顶顶顶顶顶顶顶顶顶顶顶的顶顶顶顶顶的顶顶顶顶顶顶顶顶顶的顶顶顶顶大多顶顶顶顶多多易加油</div>
+                    <div class="last_page_line">
+                        <!--区分营运车和私家车-->
+                        <span>加了
+                            <text class="bigger">10000</text>次油</span>
+                        <span>，省了
+                            <text class="bigger">2000</text>
+                        </span>元</div>
+                    <div class="last_page_line">一共打败了
+                        <text class="bigger">90%</text>的深圳市司机</div>
+                    <div class="last_page_line">荣获称号
+                        <text class="biggest">深圳市车神</text>
+                    </div>
+                    <img src="//img.ejiayou.com/wxmp/yearAccount2017/pan.png" alt="" class="img"></img>
+                    <button class="button_img">晒称号</button>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <!--分享进入页-->
+    <div class="last_page" style="display:none;">
+        <img src="//img.ejiayou.com/wxmp/yearAccount2017/code.png" alt="" class="code">
+        <div class="last_page_line last_page_line_first">
+            <text class="bigger">2017,</text>吴彦顶顶顶顶顶顶顶顶顶顶顶顶顶顶顶多多易加油</div>
+        <div class="last_page_line">
+            <span>加了
+                <text class="bigger">10000</text>次油</span>
+            <span>，省了
+                <text class="bigger">2000</text>元</span>
+        </div>
+        <div class="last_page_line">一共打败了
+            <text class="bigger">90%</text>的深圳市司机</div>
+        <div class="last_page_line">荣获称号
+            <text class="biggest">深圳市车神</text>
+        </div>
+        <img src="//img.ejiayou.com/wxmp/yearAccount2017/pan.png" alt="" class="img"></img>
+        <button class="button_img">查看我的称号</button>
+    </div>
+    <!--期待更多故事-->
+    <div class="more_story" style="display:none;">
+        <img src="//img.ejiayou.com/wxmp/yearAccount2017/code.png" alt="" class="code">
+        <div class="loading-bg-top">
+            <img class="logo_img" src="//img.ejiayou.com/wxmp/yearAccount2017/logo.png" alt="" srcset="">
+        </div>
+        <div class="line line_first">2017未有加油订单</div>
+        <div class="line">期待与您2018的故事</div>
+        <button class="button_img">查看附近油站</button>
+    </div>
+</body>
+
+</html>
